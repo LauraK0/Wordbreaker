@@ -6,7 +6,7 @@ The goal was to create a game where the player must correctly guess a 5 letter w
 The user stories are:
 - game begins, grid is created, word from the dictionary randomly picked as the winning word
 - player should be able to input a 5 letter word 
-- chosen must be 5 letters exactly and should be a word found in the dictionary, if not word should be allowed to be sumbitted
+- chosen word must be 5 letters exactly and should be a word found in the dictionary, if not word should be allowed to be submitted
 - the word should be evaluated against the winning word
 - if the word contains letters that are in the word but in the wrong place, the letter should be highlighted in yellow
 - if the word contains letters that are in the word and in the right place, the letter should be highlighted in green
