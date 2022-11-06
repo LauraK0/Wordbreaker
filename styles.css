@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+:root {
+   --bg-colour: #0C141C; /* Background colour - Dark blue */
+   --fg-colour-one: #272660; /* Accent 1 */
+   --fg-colour-two: white; /* Accent 2*/
+   --fg-colour-three: #ED1E79; /* Accent 3*/
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-colour);
+}
+  /*header CSS styles end*/
+header{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+  }
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 0px;
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+}
+.container {
+    max-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 25px;
+    color: #FFF;
+    background-color: #27266050; /* Used hex code instead of variable to change alpha value */
+    border: solid 2px var(--fg-colour-two);
+    border-radius: 10px;
+}
