@@ -1,7 +1,6 @@
-console.log('hello')
-document.addEventListener("click", (e) => {
+const startButton = document.getElementById("start-button")
+startButton.addEventListener("click", (e) => {
     e.preventDefault(); 
-    console.log('button pressed')
     getWord(); 
 })
 
