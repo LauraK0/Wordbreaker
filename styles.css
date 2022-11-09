@@ -37,7 +37,7 @@ h1 {
     color: white;
     text-align: center;
 }
-.container {
+#game-container {
     max-width: 350px;
     height: 500px;
     display: flex;
@@ -52,3 +52,23 @@ h1 {
     border: solid 2px var(--fg-colour-two);
     border-radius: 10px;
 }
+/*game*/
+.game-area{
+	margin-top:5px;
+}
+
+.row, .row-block{
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+
+.row-block{
+	font-size: 30px;
+    border: 1px solid white;
+    width: 46px;
+    height: 46px;
+	border-radius: 12px;
+	transition: transform 1.6s;
+}
+

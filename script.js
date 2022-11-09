@@ -1,22 +1,34 @@
-const startButton = document.getElementById("start-button")
+const startButton = document.getElementById("start-button");
+const gameContainer = document.getElementById('game-container');
+const wordSize = 5
+
 startButton.addEventListener("click", (e) => {
     e.preventDefault(); 
     getWord();
-    startGame();
+    removeStartButton();
+    generateGame();
 })
 
-const form = document.querySelector("form");
-form.addEventListener("submit", (e) => {
-    e.preventDefault(); // stop the form's default behaviour of submitting
-    const input = document.querySelector("input");
-    const guessedWord = 'input.value.toLowerCase().trim()'; 
-    getDefinition(guessedWord);
-})
-
-function startGame() {
+function removeStartButton() {
   if (document.body.contains(document.getElementById("start-button"))){  
     document.getElementById("start-button").remove();
 }
+}
+
+function generateGame() {
+  const gameGrid = document.createElement('div'); 
+  gameGrid.className = 'game-area';
+  for(i = 0; i < 6; i++){
+    const row = document.createElement('div');
+    row.className = 'row';
+    for(j = 0; j < wordSize; j++){
+      const rowBlock = document.createElement('div');
+      rowBlock.className = 'row-block';
+      row.append(rowBlock);
+    }
+    gameGrid.append(row);
+  }
+  gameContainer.append(gameGrid);
 }
 
 function getWord(){
