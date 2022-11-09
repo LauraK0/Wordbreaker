@@ -7,6 +7,7 @@ startButton.addEventListener("click", (e) => {
     getWord();
     removeStartButton();
     generateGame();
+    
 })
 
 function removeStartButton() {
@@ -30,6 +31,11 @@ function generateGame() {
   }
   gameContainer.append(gameGrid);
 }
+
+document.addEventListener('keydown', function(event) {
+  const key = event.key; // "a", "1", "Shift", etc.
+  console.log(key);
+});
 
 function getWord(){
     fetch(`https://random-word-api.herokuapp.com/word?length=5`)
