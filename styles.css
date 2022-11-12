@@ -27,7 +27,8 @@ header{
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
   align-items: center;
   flex-grow: 1;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .game-grid {
@@ -109,8 +111,8 @@ h1 {
   padding: 0;
   height: 58px;
   cursor: pointer;
-  background-color: rgb(129, 131, 132);
-  color: rgb(215, 218, 220);
+  background-color: var(--fg-colour-one);
+  color: white;
   flex-grow: 1;
   text-transform: uppercase;
   margin-right: 6px;
