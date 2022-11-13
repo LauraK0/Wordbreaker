@@ -1,8 +1,12 @@
 # Wordbreaker
 
+## Overview 
+
+The app is a replication of the popular NYT Wordle game. 
+User must correctly guess a 5 letter word randomly picked. 
+
 ## User stories
 
-The goal was to create a game where the player must correctly guess a 5 letter word randomly picked. 
 The user stories are:
 - game begins, grid is created, word from the dictionary randomly picked as the winning word
 - player should be able to input a 5 letter word 
@@ -16,3 +20,10 @@ The user stories are:
 - game should restart with a new word randomly allocated as the winning word
 - a record should be kept of the players progress containing how many times they've played and if the guessed the word correctly and how many attempts it took
 
+## Development
+
+It was built with the [Random Word Api](https://random-word-api.herokuapp.com/) to generate a random word and the [Free Dictionary API](https://dictionaryapi.dev/) to check if the word is valid.
+
+An issue occurs as sometimes the random word generated is not found in the free dictionary API and the user can never win.
+
+Alternative to Free dictionary API was to get all words from the Random Word API and then check the guessed word against this. This will be a huge data dump and will take a long time to fetch and will likely slow down the application.
