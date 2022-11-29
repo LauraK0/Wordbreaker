@@ -1,4 +1,4 @@
-# Wordbreaker
+# Wordle Clone
 
 ## Overview 
 
