@@ -8,7 +8,7 @@ User must correctly guess a 5 letter word randomly picked.
 ## User stories
 
 The user stories are:
-- game begins, grid is created, word from the dictionary randomly picked as the winning word
+- [ ]game begins, grid is created, word from the dictionary randomly picked as the winning word
 - player should be able to input a 5 letter word 
 - chosen word must be 5 letters exactly and should be a word found in the dictionary, if not word should be allowed to be submitted
 - the word should be evaluated against the winning word
@@ -27,3 +27,7 @@ It was built with the [Random Word Api](https://random-word-api.herokuapp.com/) 
 An issue occurs as sometimes the random word generated is not found in the free dictionary API and the user can never win.
 
 Alternative to Free dictionary API was to get all words from the Random Word API and then check the guessed word against this. This will be a huge data dump and will take a long time to fetch and will likely slow down the application.
+
+## How to use
+
+[click here](https://laurak0.github.io/wordle-clone/)
