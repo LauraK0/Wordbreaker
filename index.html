@@ -14,7 +14,24 @@
   </head>
   <body>
     <header><h1>Wordle</h1></header>
-        <button id="start-button" type="submit">Start Game!</button>
+    <div id='game-init'>
+      <label for="number-of-guesses">Number of guesses:</label>
+      <select title="number-of-guesses"  id="number-of-guesses" value="6">
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+      </select>
+      <label for="length-of-word">Length of word:</label>
+      <select title="length-of-word" id="length-of-word" value="5">
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+      </select>
+      <button class='standard-button' id="start-button" type="submit">Start Game!</button>
+  </div>
+       
   </body>
   <script src="script.js"></script>
 </html>
