@@ -4,7 +4,7 @@
 
 The app is a replication of the popular NYT Wordle game where the player must correctly guess a 5 letter word randomly picked. 
 
-Our task was to break up every part of the game into a separate user story, create an issue for every user story. Then decide which user story you are going to focus on and attempt to complete the selected user story.
+Our task was to break up every part of the game into a separate user story, create an issue for each user story. Then focus on and attempt to complete one user story.
 
 ### How to play
 Try the app out [here](laurak0.github.io/wordle-clone/)
