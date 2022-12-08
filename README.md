@@ -20,7 +20,7 @@ The user stories are:
 - [x] game begins, grid is created
 - [x] word from the dictionary randomly picked as the winning word
 - [x] player should be able to input a 5 letter word 
-- [x] chosen word must be 5 letters exactly and should be a word found in the dictionary, if not word should be allowed to be submitted
+- [x] chosen word must be 5 letters exactly and should be a word found in the dictionary, if not word should not be allowed to be submitted
 - [x] the word should be evaluated against the winning word
 - [x] if the word contains letters that are in the word but in the wrong place, the letter should be highlighted in yellow
 - [x] if the word contains letters that are in the word and in the right place, the letter should be highlighted in green
