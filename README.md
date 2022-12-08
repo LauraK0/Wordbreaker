@@ -32,9 +32,9 @@ The user stories are:
 
 ## Development of first user story
 
-I initially chose two user stories to tackle, these were generating the winning from a random word API and then check the user input can be found in the dictionary.
+I initially chose two user stories to tackle, these were generating the winning from a random word API and then checking whether the user input is a valid.
 
-I looked at various to see if they provide what I needed. I couln't one single API that could a generate a random API and also compare two words. So I chose two separate APIs and fetched at different points. These were the [Random Word Api](https://random-word-api.herokuapp.com/) to generate a random word and the [Free Dictionary API](https://dictionaryapi.dev/) to check if the word is valid.
+I looked at various APIs to see if they provide what I needed. I couln't one single API that could a generate a random API and also compare two words. So I chose two separate APIs and fetched at different points. These were the [Random Word Api](https://random-word-api.herokuapp.com/) to generate a random word and the [Free Dictionary API](https://dictionaryapi.dev/) to check if the word is valid.
 
 #### Challenges 
 An issue occurs as sometimes the random word generated is not found in the free dictionary API and the user can never win. 
