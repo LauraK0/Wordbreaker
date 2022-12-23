@@ -24,15 +24,15 @@ The user stories are:
 - [x] the word should be evaluated against the winning word
 - [x] if the word contains letters that are in the word but in the wrong place, the letter should be highlighted in yellow
 - [x] if the word contains letters that are in the word and in the right place, the letter should be highlighted in green
-- [x] the player be given 6 chances before losing, same rules apply
-- [x] if the player correctly guesses the word, they should be congratulated for their great feat
+- [x] the player is be given 6 chances before losing, each attempt is evaluated against the same rules
+- [x] if the player correctly guesses the word, they should be congratulated
 - [x] if the player gets to the end of their 6 chances without correctly guessing the word, they should be notified that they have lost
 - [x] game should restart with a new word randomly allocated as the winning word
 - [ ] a record should be kept of the players progress containing how many times they've played and if the guessed the word correctly and how many attempts it took
 
 ## Development of first user story
 
-I initially chose two user stories to tackle, these were generating the winning from a random word API and then checking whether the user input is a valid.
+I initially chose two user stories to tackle, these were generating the winning word from a random word API and then checking whether the user input is a valid.
 
 I looked at various APIs to see if they provide what I needed. I couln't one single API that could a generate a random API and also compare two words. So I chose two separate APIs and fetched at different points. These were the [Random Word Api](https://random-word-api.herokuapp.com/) to generate a random word and the [Free Dictionary API](https://dictionaryapi.dev/) to check if the word is valid.
 
